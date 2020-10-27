@@ -60,8 +60,11 @@ Windows版しか試しておりませんので、Windowsのインストール方
 C:\Program Files(x86)\UgCS\client\Assets\Resources\Localization\
 
 になります。
+
 ここには、英語や中国語など、他の言語のデータがあります。
+
 ここへ日本語のファイル（具体的にはja-JP.po）を置くことで、UgCSは認識してくれます。
+
 国旗のファイルは一応用意しましたが、効果がよくわかりません（汗
 
 ![install](https://user-images.githubusercontent.com/55542434/97270424-7b5d9100-1872-11eb-86a6-174ee4380b78.png)
