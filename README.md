@@ -33,34 +33,55 @@ UgCSの日本語化は非常に簡単です。
 
 2つのファイル
 
-* ja_JP.po  (日本語
-* ja_JP.png (
+* ja_JP.po　　(Unityの日本語リソースファイル)
+* ja_JP.png　(日本の国旗)
 
 を所定のディレクトリに置くだけです。
 
 # インストール方法
- 
-(1)上記ファイルをダウンロードする．
 
-[ja-JP.png](https://github.com/hsgucci404/ugcs_jp/raw/main/ja-JP.png)
+Windows版しか試しておりませんので、Windowsのインストール方法を書きます。
+他のＯＳでも手法は同様だと思われます。
 
-```bash
-pip install huga_package
-```
- 
+(1)下記の２ファイルをダウンロードします。
+
+* [ja-JP.po](https://github.com/hsgucci404/ugcs_jp/raw/main/ja-JP.po)
+* [ja-JP.png](https://github.com/hsgucci404/ugcs_jp/raw/main/ja-JP.png)
+
+(2)ダウンロードしたファイルを、UgCSのインストール先のフォルダにコピーします。
+
+デフォルトのままでインストールした場合、
+
+C:\Program Files(x86)\UgCS\client\Assets\Resources\Localization\
+
+になります。
+ここには、英語や中国語など、他の言語のデータがあります。
+ここへ日本語のファイル（具体的にはja-JP.po）を置くことで、UgCSは認識してくれます。
+国旗のファイルは一応用意しましたが、効果がよくわかりません（汗
+![install](https://user-images.githubusercontent.com/55542434/97270424-7b5d9100-1872-11eb-86a6-174ee4380b78.png)
+
+コピーすると、下図の様な警告が出ますが、管理者として[続行]してください。
+![admin](https://user-images.githubusercontent.com/55542434/97270750-ff177d80-1872-11eb-9b75-84ab36cecfbb.png)
+
+これで準備は完了です
+
+
 # Usage
  
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
+
  
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
- 
-# Note
- 
-注意点などがあれば書く
+# 注意点
+
+今後、日本語化する際は、このja-JP.poを編集すれば良いのですが、
+Program Files(x86)以下のフォルダ/ファイルの編集権限は管理者にしかありません。
+
+したがってテキストエディタ等で直接
+C:\Program Files(x86)\UgCS\client\Assets\Resources\Localization\ja-JP.po
+を開いて編集しても、うまく反映されません。（これで1時間悩みました）
+
+したがって、ポイントとしては、デスクトップなどの作業エリアにja-JP.poファイルを置いて編集・保存し、
+保存する都度、上記Localizationフォルダへ上書きコピーしてください。
+上記の警告ダイアログが出ますが、管理者として続行すれば問題ありません。
  
 # Author
  
