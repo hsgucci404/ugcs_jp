@@ -38,7 +38,7 @@ UgCSの日本語化は非常に簡単です。
 
 を所定のディレクトリに置くだけです。
 
-# Installation
+# インストール方法
  
 Requirementで列挙したライブラリなどのインストール方法を説明する
  
@@ -62,17 +62,5 @@ python demo.py
  
 # Author
  
-作成情報を列挙する
- 
-* 作成者
-* 所属
-* E-mail
- 
-# License
-ライセンスを明示する
- 
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
- 
-社内向けなら社外秘であることを明示してる
- 
-"hoge" is Confidential.
+* hsgucci
+* E-mail: hsgucci@yahoo.co.jp
