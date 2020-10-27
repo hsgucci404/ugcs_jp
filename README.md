@@ -40,8 +40,10 @@ UgCSの日本語化は非常に簡単です。
 
 # インストール方法
  
-Requirementで列挙したライブラリなどのインストール方法を説明する
- 
+(1)上記ファイルをダウンロードする．
+
+[ja-JP.png](https://github.com/hsgucci404/ugcs_jp/raw/main/ja-JP.png)
+
 ```bash
 pip install huga_package
 ```
