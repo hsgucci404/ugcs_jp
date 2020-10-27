@@ -79,7 +79,9 @@ C:\Program Files(x86)\UgCS\client\Assets\Resources\Localization\
 # Usage
 
 UgCS clientを起動し、
+
 左上のボタンからメニューを[Main menu]-[Configuration]-[Language]と入っていくと
+
 [日本語]が追加されているはずです。
 
 ![menu](https://user-images.githubusercontent.com/55542434/97272492-5fa7ba00-1875-11eb-841f-3b2494eadbaa.png)
@@ -101,6 +103,7 @@ C:\Program Files(x86)\UgCS\client\Assets\Resources\Localization\ja-JP.po
 を開いて編集しても、うまく反映されません。（これで1時間悩みました）
 
 したがって、ポイントとしては、デスクトップなどの作業エリアにja-JP.poファイルを置いて編集・保存し、
+
 保存する都度、上記Localizationフォルダへ上書きコピーしてください。
 
 上記の警告ダイアログが出ますが、管理者として続行すれば問題ありません。
@@ -108,6 +111,7 @@ C:\Program Files(x86)\UgCS\client\Assets\Resources\Localization\ja-JP.po
 ※注意２
 
 編集したja-JP.poファイルを上書きコピーしても、
+
 UgCS clientアプリケーションを一旦終了して再起動しないと反映されません。
 
 書き換える度にアプリを再起動しましょう。
