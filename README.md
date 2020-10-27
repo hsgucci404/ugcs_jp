@@ -76,7 +76,7 @@ C:\Program Files(x86)\UgCS\client\Assets\Resources\Localization\
 これで準備は完了です
 
 
-# Usage
+# 使い方
 
 UgCS clientを起動し、
 
