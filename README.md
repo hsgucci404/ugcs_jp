@@ -7,7 +7,8 @@ ugcs_jpは「UgCS 4.xの日本語リソースを作ろう」というプロジ�
 日本語化されていないのでユーザーが少ないUgCS。
  
 # DEMO
- 
+
+![demo1](https://user-images.githubusercontent.com/55542434/97267392-70ecc880-186d-11eb-98fe-d8ff0804e023.png)
 "hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
  
 # Features
